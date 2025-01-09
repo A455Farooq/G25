@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Bangers&display=swap');
+*{
+ 
+     margin: 0;
+     padding: 0;
+     box-sizing: 0;
+     font-family: "Bangers", serif;
+}
+
+
+
+
+
+body{
+    background-color: #001d3d;
+    color: aliceblue;
+}
+
+
+section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+section img{
+    width: 500px;
+    height: 500px;
+}
+
+
+.animate-on-scroll{
+    opacity: 0;
+    transform: translateX(-1000px);
+    transition: all 1s ease-in-out;
+    transition-delay: 0.6s;
+  
+}
+
+.animate {
+    opacity: 1;
+    transform: translateX(0);
+    font-size: 55px;
+    letter-spacing: 2px;
+}
+
